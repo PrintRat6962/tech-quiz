@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+nav {
+    background-color: #5856D6;
+    display: flex;
+    justify-content: center;
+}
+
+.header-container {
+    height: 75px;
+    width: 1240px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navlink{
+    padding-right: 15px;
+    color: white;
+    font-size: 1.5rem;
+    font-family: "Lato", sans-serif;
+}
+
+.moon{
+    background-image: url("./images/astro.png");
+    background-position: center;
+    background-size: cover;
+    height: 480px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.moon-inner{
+    color: white;
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    font-size: 2rem;
+    line-height: .1rem;
+    width: 85%; /*Divided heights for this one :)*/
+}
+
+.learn {
+    font-family: "Lato", sans-serif;
+    color: white;
+    background-color: #5AC8FA;
+    border: none;
+    height: 41px;
+    width: 120px;
+}
