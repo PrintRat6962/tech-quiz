@@ -1,3 +1,4 @@
+import React from "react"
 import Header from './components/Header';
 import Moon from './components/Moon'
 import ProgBar from './components/ProgBar';
@@ -5,20 +6,16 @@ import TaskCont from './components/TaskCont';
 import './App.css';
 
 function App() {
+  const [completeCount, setCompleteCount] = React.useState(0);
+
   return (
     <div className='body'>
       <Header />
       <Moon />
-      <ProgBar />
-      <TaskCont />
+      <ProgBar completeCount = {completeCount}/>
+      <TaskCont setCompleteCount = {setCompleteCount}/>
     </div>
   );
 }
 
 export default App;
-
-{/* {Array.from({ length: 4 }).map((_, index) =>(
-                <TaskCont
-                  rep = {index}
-                />
-      ))} */}
