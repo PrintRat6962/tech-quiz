@@ -22,6 +22,16 @@ nav {
     font-family: "Lato", sans-serif;
 }
 
+.sidebar
+{
+    display: none;
+}
+
+.borgar
+{
+    display: none;
+}
+
 /* Hero Styles */
 .moon{
     background-image: url("./images/astro.png");
@@ -120,6 +130,7 @@ nav {
     font-weight: 700;
     font-size: 2rem;
     box-shadow: 0px 1px 10px 0px #00000020;
+    margin-bottom: 1rem;
 }
 
 .todo-item > button {
@@ -130,4 +141,77 @@ nav {
     height: 41px;
     width: 120px;
     
+}
+
+@media all and (max-width: 700px) {
+    /* Header Styles */
+    .header-container {
+        height: 75px;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-left: .5rem;
+    }
+
+    .borgar
+    {
+        display: block;
+        padding-left: 6.5rem;
+    }
+
+    .nav-links
+    {
+        display: none;
+    }
+
+    /* Side Bar Styles */
+    .sidebar
+    {
+        background-color: white;
+        position:absolute;
+        height: 100%;
+        width: 75%;
+        display: none;
+        flex-direction: column;
+        left: 0px;
+        align-items: center;
+        top: 4.7rem;
+    }
+
+    .sidelink
+    {
+        color: #53575A;
+        font-size: 1.25rem;
+    }
+
+    .side-item
+    {
+        width: 85%;
+        height: 2rem;
+        margin-top: 1rem;
+        border-bottom: 1px solid #53575A;
+        display: flex;
+        justify-content: space-between;
+        padding-bottom: .5rem;
+    }
+
+    /* Hero Styles */
+    .moon-inner{
+        background-color: blue;  
+        display: flex;   
+        flex-direction: column;
+        font-size: 1.5rem;   
+    }
+
+    .task-con {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        background-color: #53575A;
+    }
+
+    .todo-item {
+        background-color: #5856D6;
+    }
 }

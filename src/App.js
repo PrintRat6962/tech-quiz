@@ -10,13 +10,15 @@ function App() {
       <Header />
       <Moon />
       <ProgBar />
-      {Array.from({ length: 4 }).map((_, index) =>(
-                <TaskCont
-                  rep = {index}
-                />
-      ))}
+      <TaskCont />
     </div>
   );
 }
 
 export default App;
+
+{/* {Array.from({ length: 4 }).map((_, index) =>(
+                <TaskCont
+                  rep = {index}
+                />
+      ))} */}
