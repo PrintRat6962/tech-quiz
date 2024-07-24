@@ -15,6 +15,11 @@ nav {
     align-items: center;
 }
 
+.nav-links
+{
+    margin-left: 40rem;
+}
+
 .navlink{
     padding-right: 15px;
     color: white;
@@ -143,6 +148,8 @@ nav {
     
 }
 
+/* ------------------------------------------------------- */
+
 @media all and (max-width: 700px) {
     /* Header Styles */
     .header-container {
@@ -177,6 +184,7 @@ nav {
         left: 0px;
         align-items: center;
         top: 4.7rem;
+        z-index: 1;
     }
 
     .sidelink
@@ -198,20 +206,71 @@ nav {
 
     /* Hero Styles */
     .moon-inner{
-        background-color: blue;  
+        width: 85%; 
         display: flex;   
         flex-direction: column;
+        align-items: center;
         font-size: 1.5rem;   
     }
+
+    /* Progress Styles */
+    .prog-container {
+        width: 100%;
+        height: 4.5rem;
+        margin-top: 1.25rem;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .prog-sec {
+        width: 85%;
+        margin-right: 1.25rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: right;
+        color: #53575A;
+        font-family: "Lato", sans-serif;
+        font-size: 1.5rem;
+        align-items: center;
+    }
+
+    .percText
+    {
+        margin-bottom: .5rem;
+        font-size: 2.25rem;
+        font-weight: bold;
+    }
+    
+    .progress {
+        width: 100%;
+        height: 30px;
+        border-radius: 15px;
+        background-color: #E2E2E2;
+        margin-left: 1rem;
+        position: relative;
+    }
+    
+    .progress > span{
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        background-color: #5856D6;
+        border-radius: 15px;
+    }
+
+    /* Task Box Styles */
 
     .task-con {
         display: flex;
         flex-direction: column;
-        flex-wrap: nowrap;
-        background-color: #53575A;
+        height: 100%;
+        align-items: center;
     }
 
     .todo-item {
-        background-color: #5856D6;
+        width: 85%;
+        height: 5rem;
+        font-size: 1.5rem;
     }
 }

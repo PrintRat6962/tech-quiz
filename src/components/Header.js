@@ -21,6 +21,7 @@ export default function Header() {
         <nav>
             <div className="header-container">
                 <img src={rocket} alt="logo"></img>
+
                 <div className="nav-links">
                     <a className="navlink">Schedule</a>
                     <a className="navlink">About Us</a>
