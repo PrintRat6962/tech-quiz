@@ -3,6 +3,7 @@ import Header from './components/Header';
 import Moon from './components/Moon'
 import ProgBar from './components/ProgBar';
 import TaskCont from './components/TaskCont';
+import Footer from "./components/footer";
 import './App.css';
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
       <Moon />
       <ProgBar completeCount = {completeCount}/>
       <TaskCont setCompleteCount = {setCompleteCount}/>
+      <Footer/>
     </div>
   );
 }

@@ -148,6 +148,16 @@ nav {
     
 }
 
+/* Footer style */
+
+footer
+{
+    background-color: #555555;
+    height: 2rem;
+    position: relative;
+    top: 30rem
+}
+
 /* ------------------------------------------------------- */
 
 @media all and (max-width: 700px) {
@@ -272,5 +282,13 @@ nav {
         width: 85%;
         height: 5rem;
         font-size: 1.5rem;
+    }
+
+    footer
+    {
+        background-color: #555555;
+        height: 2rem;
+        position: relative;
+        top: 1rem
     }
 }
