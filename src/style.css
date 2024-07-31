@@ -7,69 +7,61 @@ nav {
     justify-content: center;
 }
 
-.header-container {
+/* .header-container {
     height: 75px;
     width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding-left: 2rem;
-}
+} */
 
-.nav-links
-{
-    margin-left: 40rem;
-}
-
-.navlink{
-    padding-right: 15px;
-    color: white;
-    font-size: 1.5rem;
+/* .navlink{
     font-family: "Lato", sans-serif;
-}
+} */
 
-.sidebar
+/* .sidebar
 {
     display: none;
-}
+} */
 
-.borgar
+/* .borgar
 {
     display: none;
-}
+} */
 
 /* Hero Styles */
 .moon{
-    background-image: url("./images/astro.png");
-    background-position: center;
+    /* background-image: url("./images/astro.png"); */
+    /* background-position: center;
     background-size: cover;
     height: 480px;
     width: 100%;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: center; */
 }
 
 .moon-inner{
-    color: white;
+    /* color: white;
     font-family: "Lato", sans-serif;
     font-weight: 700;
     font-size: 2rem;
     line-height: .1rem;
-    width: 85%; /*Divided heights for this one :)*/
+    width: 85%; Divided heights for this one :) */
 }
 
-.learn {
+/* .learn {
     font-family: "Lato", sans-serif;
     color: white;
     background-color: #5AC8FA;
     border: none;
     height: 41px;
     width: 120px;
-}
+} */
 
 /* Progress Styles */
-.prog-container {
+/* .prog-container {
     width: 85%;
     height: 3.5rem;
     margin-left: auto;
@@ -77,9 +69,9 @@ nav {
     margin-top: 1.25rem;
     display: flex;
     justify-content: right;
-}
+} */
 
-.prog-sec {
+/* .prog-sec {
     width: 40%;
     margin-right: 1.25rem;
     display: flex;
@@ -88,16 +80,16 @@ nav {
     font-family: "Lato", sans-serif;
     font-size: 1.5rem;
     align-items: center;
-}
+} */
 
-.progress {
+/* .progress {
     width: 68%;
     height: 30px;
     border-radius: 15px;
     background-color: #E2E2E2;
     margin-left: 1rem;
     position: relative;
-}
+} */
 
 .progress > span{
     position: absolute;

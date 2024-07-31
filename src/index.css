@@ -2,6 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer components {
+  .navlink {
+    @apply pr-4 text-white text-2xl font-display
+  }
+}
+
 /* body {
   background: #F7F7F7;
   margin: 0;

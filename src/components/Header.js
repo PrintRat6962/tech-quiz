@@ -19,22 +19,22 @@ export default function Header() {
 
     return (
         <nav>
-            <div className="header-container">
+            <div className="h-20 w-screen flex justify-between items-center pl-8">
                 <img src={rocket} alt="logo"></img>
 
-                <div className="nav-links">
+                <div>
                     <a className="navlink">Schedule</a>
                     <a className="navlink">About Us</a>
                     <a className="navlink">Contact</a>
                 </div>
 
-                <div className="borgar">
+                <div className="hidden">
                     <img id="borg" onClick={openNav} src={borgar}></img>
                     <img id="ex" onClick={closeNav} style={{display: "none"}} src={ex}></img>
                 </div>
             </div>
 
-            <div id="side" className="sidebar">
+            <div id="side" className="hidden">
                 <div className="side-item">
                     <a className="sidelink">Schedule</a>
                     <img src={arrow}></img>
