@@ -32,10 +32,6 @@ export default function Header() {
                     <img id="borg" onClick={openNav} src={borgar}></img>
                     <img id="ex" onClick={closeNav} style={{display: "none"}} src={ex}></img>
                 </div>
-
-                <div className="ex">
-                    <img src=""></img>
-                </div>
             </div>
 
             <div id="side" className="sidebar">
